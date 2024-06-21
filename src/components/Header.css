@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.Header a {
+  text-decoration: none;
+  color: #28b39d;
+}
+.Header p {
+  color: #929292;
+}
+.Header .accent {
+  color: #28b39d;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .Header {
+    margin: 0 4%;
+  }
+}

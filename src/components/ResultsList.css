@@ -1,0 +1,19 @@
+.ResultsList {
+  list-style: none;
+}
+
+.ResultsList h2 {
+  margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ResultsList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+  }
+
+  .ResultsList h2 {
+    width: 100vw;
+  }
+}

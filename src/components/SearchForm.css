@@ -1,0 +1,41 @@
+.SearchForm {
+  margin: 10px;
+}
+
+.SearchForm label {
+  display: block;
+  color: #929292;
+  font-size: 14px;
+}
+
+.SearchForm .inputBtnBlock {
+  width: 91vw;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.inputBtnBlock input {
+  flex: 9;
+  height: 25px;
+}
+
+.inputBtnBlock button {
+  flex: 1;
+  height: 28px;
+  color: #fff;
+  background-color: #145a4f;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.inputBtnBlock button:hover {
+  background-color: #1a7567;
+}
+
+@media only screen and (min-width: 768px) {
+  .SearchForm .inputBtnBlock {
+    width: 79vw;
+  }
+}
